@@ -1,9 +1,9 @@
 const test = require('ava');
-const rimraf = require('rimraf');
+const rimraf = require('rimraf').rimraf;
 
 const util = {
     cleanBuild: (folder) => {
-        const clean = () => util.promiseCb(cb => rimraf(folder, cb));
+        const clean = () => rimraf(folder);
         test.beforeEach(clean);
         test.afterEach.always(clean);
     },

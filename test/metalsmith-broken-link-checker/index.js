@@ -1,6 +1,5 @@
 const path = require("path");
 const test = require("ava");
-const rimraf = require("rimraf");
 const metalsmith = require("metalsmith");
 const metalsmithBrokenLinkChecker = require("@fidian/metalsmith-broken-link-checker");
 const metalsmithRedirect = require("../..");

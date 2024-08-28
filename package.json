@@ -1,6 +1,6 @@
 {
   "name": "@fidian/metalsmith-redirect",
-  "version": "3.5.0",
+  "version": "3.6.0",
   "description": "A Metalsmith plugin to create HTTP redirections",
   "keywords": [
     "metalsmith",
@@ -24,17 +24,17 @@
     "lib/*"
   ],
   "scripts": {
-    "reinstall": "rm -rf node_modules && npm install",
+    "reinstall": "rm -rf node_modules package-lock.json && npm install",
     "test": "ava"
   },
   "dependencies": {
   },
   "devDependencies": {
     "ava": "6.1.3",
-    "@fidian/metalsmith-broken-link-checker": "^1.2.0",
+    "@fidian/metalsmith-broken-link-checker": "^1.3.0",
     "gulp": "^5.0.0",
     "gulpsmith": "^0.6.0",
     "metalsmith": "2.6.3",
-    "rimraf": "^3.0.2"
+    "rimraf": "^6.0.1"
   }
 }

@@ -1,7 +1,6 @@
 const fs = require("fs");
 const path = require("path");
 const { execFile } = require("child_process");
-const rimraf = require("rimraf");
 const test = require("ava");
 const util = require("../test/_util");
 
